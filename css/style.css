@@ -28,9 +28,18 @@ li {
     list-style-type: none;
 }
 
-a {
+li > a {
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-decoration: none;
+}
+
+div > a {
+    text-decoration: none;
+}
+
+p strong a {
+    color: #CD295A;
     text-decoration: none;
 }
 
@@ -63,7 +72,7 @@ strong {
 .img {
     margin: 300px 0px 0px 100px;
     width: 150px;
-    border: 6px solid white;
+    border: 4px solid white;
     border-radius: 50%;
 }
 

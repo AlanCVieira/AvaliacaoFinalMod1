@@ -7,13 +7,10 @@
 body {
     display: flex;
     background-color: lightgray;
+    overflow: hidden;
 }
 
 nav {
-    display: flex;
-}
-
-footer {
     display: flex;
 }
 
@@ -118,7 +115,7 @@ strong {
     font-size: 30px;
     color: #38ADAE;
     padding-bottom: 20px;
-    margin: 305px 0px 0px 100px;
+    margin: 290px 0px 0px 100px;
 }
 
 .object2 h4 {
